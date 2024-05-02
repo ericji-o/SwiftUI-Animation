@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8741CE732BE3274A00530C9E /* FireworkLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE722BE3274A00530C9E /* FireworkLoading.swift */; };
+		8741CE752BE329BA00530C9E /* DynamicGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE742BE329BA00530C9E /* DynamicGradientText.swift */; };
+		8741CE772BE32AAE00530C9E /* CascadingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE762BE32AAE00530C9E /* CascadingCard.swift */; };
+		8741CE792BE32B9B00530C9E /* ThemeSelectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE782BE32B9B00530C9E /* ThemeSelectBar.swift */; };
+		8741CE7B2BE32C3D00530C9E /* GPTAnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE7A2BE32C3D00530C9E /* GPTAnimatedText.swift */; };
+		8741CE7D2BE32E0A00530C9E /* Radar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE7C2BE32E0A00530C9E /* Radar.swift */; };
+		8741CE7F2BE32EDE00530C9E /* DripEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE7E2BE32EDE00530C9E /* DripEffectView.swift */; };
+		8741CE852BE3371F00530C9E /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741CE842BE3371F00530C9E /* DisplayView.swift */; };
+		875D48D52BE31EAB005893B8 /* swiftui_animationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D48D42BE31EAB005893B8 /* swiftui_animationApp.swift */; };
+		875D48D72BE31EAB005893B8 /* SlideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D48D62BE31EAB005893B8 /* SlideButton.swift */; };
+		875D48D92BE31EAC005893B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D48D82BE31EAC005893B8 /* Assets.xcassets */; };
+		875D48DC2BE31EAC005893B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D48DB2BE31EAC005893B8 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8741CE722BE3274A00530C9E /* FireworkLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkLoading.swift; sourceTree = "<group>"; };
+		8741CE742BE329BA00530C9E /* DynamicGradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGradientText.swift; sourceTree = "<group>"; };
+		8741CE762BE32AAE00530C9E /* CascadingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadingCard.swift; sourceTree = "<group>"; };
+		8741CE782BE32B9B00530C9E /* ThemeSelectBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectBar.swift; sourceTree = "<group>"; };
+		8741CE7A2BE32C3D00530C9E /* GPTAnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTAnimatedText.swift; sourceTree = "<group>"; };
+		8741CE7C2BE32E0A00530C9E /* Radar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar.swift; sourceTree = "<group>"; };
+		8741CE7E2BE32EDE00530C9E /* DripEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripEffectView.swift; sourceTree = "<group>"; };
+		8741CE842BE3371F00530C9E /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		875D48D12BE31EAB005893B8 /* swiftui-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875D48D42BE31EAB005893B8 /* swiftui_animationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_animationApp.swift; sourceTree = "<group>"; };
+		875D48D62BE31EAB005893B8 /* SlideButton.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SlideButton.swift; sourceTree = "<group>"; tabWidth = 2; };
+		875D48D82BE31EAC005893B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		875D48DB2BE31EAC005893B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875D48CE2BE31EAB005893B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8741CE802BE3303E00530C9E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8741CE742BE329BA00530C9E /* DynamicGradientText.swift */,
+				8741CE762BE32AAE00530C9E /* CascadingCard.swift */,
+				8741CE7A2BE32C3D00530C9E /* GPTAnimatedText.swift */,
+				875D48D62BE31EAB005893B8 /* SlideButton.swift */,
+				8741CE7E2BE32EDE00530C9E /* DripEffectView.swift */,
+				8741CE782BE32B9B00530C9E /* ThemeSelectBar.swift */,
+				8741CE7C2BE32E0A00530C9E /* Radar.swift */,
+				8741CE722BE3274A00530C9E /* FireworkLoading.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		875D48C82BE31EAB005893B8 = {
+			isa = PBXGroup;
+			children = (
+				875D48D32BE31EAB005893B8 /* swiftui-animation */,
+				875D48D22BE31EAB005893B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875D48D22BE31EAB005893B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875D48D12BE31EAB005893B8 /* swiftui-animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875D48D32BE31EAB005893B8 /* swiftui-animation */ = {
+			isa = PBXGroup;
+			children = (
+				8741CE802BE3303E00530C9E /* components */,
+				875D48D42BE31EAB005893B8 /* swiftui_animationApp.swift */,
+				875D48D82BE31EAC005893B8 /* Assets.xcassets */,
+				875D48DA2BE31EAC005893B8 /* Preview Content */,
+				8741CE842BE3371F00530C9E /* DisplayView.swift */,
+			);
+			path = "swiftui-animation";
+			sourceTree = "<group>";
+		};
+		875D48DA2BE31EAC005893B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				875D48DB2BE31EAC005893B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875D48D02BE31EAB005893B8 /* swiftui-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875D48DF2BE31EAC005893B8 /* Build configuration list for PBXNativeTarget "swiftui-animation" */;
+			buildPhases = (
+				875D48CD2BE31EAB005893B8 /* Sources */,
+				875D48CE2BE31EAB005893B8 /* Frameworks */,
+				875D48CF2BE31EAB005893B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-animation";
+			packageProductDependencies = (
+			);
+			productName = "swiftui-animation";
+			productReference = 875D48D12BE31EAB005893B8 /* swiftui-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875D48C92BE31EAB005893B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					875D48D02BE31EAB005893B8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 875D48CC2BE31EAB005893B8 /* Build configuration list for PBXProject "swiftui-animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875D48C82BE31EAB005893B8;
+			packageReferences = (
+			);
+			productRefGroup = 875D48D22BE31EAB005893B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875D48D02BE31EAB005893B8 /* swiftui-animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875D48CF2BE31EAB005893B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875D48DC2BE31EAC005893B8 /* Preview Assets.xcassets in Resources */,
+				875D48D92BE31EAC005893B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875D48CD2BE31EAB005893B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8741CE852BE3371F00530C9E /* DisplayView.swift in Sources */,
+				8741CE7D2BE32E0A00530C9E /* Radar.swift in Sources */,
+				8741CE752BE329BA00530C9E /* DynamicGradientText.swift in Sources */,
+				8741CE792BE32B9B00530C9E /* ThemeSelectBar.swift in Sources */,
+				875D48D72BE31EAB005893B8 /* SlideButton.swift in Sources */,
+				875D48D52BE31EAB005893B8 /* swiftui_animationApp.swift in Sources */,
+				8741CE732BE3274A00530C9E /* FireworkLoading.swift in Sources */,
+				8741CE772BE32AAE00530C9E /* CascadingCard.swift in Sources */,
+				8741CE7F2BE32EDE00530C9E /* DripEffectView.swift in Sources */,
+				8741CE7B2BE32C3D00530C9E /* GPTAnimatedText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		875D48DD2BE31EAC005893B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		875D48DE2BE31EAC005893B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875D48E02BE31EAC005893B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-animation/Preview Content\"";
+				DEVELOPMENT_TEAM = FB7WTB4847;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yun.swiftui-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875D48E12BE31EAC005893B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-animation/Preview Content\"";
+				DEVELOPMENT_TEAM = FB7WTB4847;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yun.swiftui-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875D48CC2BE31EAB005893B8 /* Build configuration list for PBXProject "swiftui-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875D48DD2BE31EAC005893B8 /* Debug */,
+				875D48DE2BE31EAC005893B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875D48DF2BE31EAC005893B8 /* Build configuration list for PBXNativeTarget "swiftui-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875D48E02BE31EAC005893B8 /* Debug */,
+				875D48E12BE31EAC005893B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875D48C92BE31EAB005893B8 /* Project object */;
+}
